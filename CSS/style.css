@@ -1,0 +1,66 @@
+
+body{
+    /*quitar bordes */
+    margin: 0;
+    padding: 0;
+    background-color:#101c34;
+}
+.MenuPPL{
+    width: 100vw;
+    height:8vw;
+    background-color: #191925;
+
+}
+.MenuPPL img{
+    vertical-align:middle;
+    width: auto;
+    height: 4.2vw;
+    padding-top: 1vw;
+    padding-bottom: 5.5vw;
+}
+.MenuPPL a{
+    padding:2.8vw 1vw;
+    color:beige;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 4.2vw;
+    font-weight: bolder;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+.MenuPPL a:hover,.MenuPPL a.Actual{
+    background-color: #10d167;
+}
+h1{
+    font-size: 7vw;
+    color:#d4544c;
+    font-family: 'Bebas Neue', sans-serif;
+    font-variant: small-caps;
+    text-shadow:0cap;
+    text-align: center;
+    
+}
+
+p,ul{
+    font-size: 2vw;
+    color:#32c4af;
+    font-family: 'helvetica', sans-serif;
+    font-variant: small-caps;
+    text-shadow:0cap;
+    text-align: justify;
+    padding-top: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.Info img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 20vw;
+    padding: 1vh;
+    border: 10px solid #10d167;
+    border-radius: 10px;
+
+}
