@@ -1,66 +1,100 @@
 
+/* -----------------ALLPAGES----------------*/
 body{
     /*quitar bordes */
     margin: 0;
     padding: 0;
     background-color:#101c34;
 }
+
+/*-----Menu principal-----*/
 .MenuPPL{
     width: 100vw;
-    height:8vw;
+    height:8vw; /* se usa vw para mantener proporciones */
     background-color: #191925;
-
 }
-.MenuPPL img{
-    vertical-align:middle;
+.MenuPPL img{/* Logo */
+    vertical-align:middle;/*alineasion texto siguiente*/
     width: auto;
-    height: 4.2vw;
+    height: 4.2vw;/* se usa vw para mantener proporciones */
     padding-top: 1vw;
     padding-bottom: 5.5vw;
 }
 .MenuPPL a{
+    /* se usa vw para mantener proporciones */
     padding:2.8vw 1vw;
-    color:beige;
-    text-align: center;
-    font-family: 'Righteous', cursive;
-    font-size: 4.2vw;
-    font-weight: bolder;
-    text-decoration: none;
-    vertical-align: middle;
+    font-size: 4.2vw; 
 
+    vertical-align: middle;
+    text-align: center;
+    color:beige;    
+    font-family: 'Righteous', cursive;    
+    font-weight: bolder;
+
+    /* quitar subrayado links */
+    text-decoration: none;
 }
-.MenuPPL a:hover,.MenuPPL a.Actual{
+/*---Menu principal Dinamico-*/
+.MenuPPL a:hover,.MenuPPL a.Actual{ /*Se realiza modificacion para menu actual y en seleccion*/
     background-color: #10d167;
 }
-h1{
+
+h1{/* titulos */
+    margin: 10vh;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
     font-size: 7vw;
     color:#d4544c;
-    font-family: 'Bebas Neue', sans-serif;
-    font-variant: small-caps;
-    text-shadow:0cap;
-    text-align: center;
-    
+    font-variant: small-caps;    
 }
+header > p,ul{/* parrafos y listas */
+    text-align: justify;
+    /* se usa vw para mantener proporciones */
+    padding-top: 0.2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 
-p,ul{
     font-size: 2vw;
     color:#32c4af;
     font-family: 'helvetica', sans-serif;
-    font-variant: small-caps;
-    text-shadow:0cap;
-    text-align: justify;
-    padding-top: 3vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
-.Info img{
+
+hr{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    border: 0.25vh solid #10d167;
+    border-radius: 5px;
+}
+footer{
+    /*quitar bordes */
+    margin: 0;
+    padding: 3.5vh 1vw;
+    background-color:#191925;
+}
+
+footer> a,p {
+    font-size: 1vw;
+    color:beige;    
+    font-family: 'helvetica', cursive;    
+    font-weight: bolder;
+
+    /* quitar subrayado links */
+    text-decoration: none;
+}
+/* ------------------INDEX------------------*/
+
+#FOTOPERFIL{/* Foto de perfil */
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    height: 20vw;
+    height: 20vw;/* se usa vw para mantener proporciones */
     padding: 1vh;
     border: 10px solid #10d167;
     border-radius: 10px;
+}
 
+.index p{
+    text-align: center;
+    font-variant: small-caps;
 }
